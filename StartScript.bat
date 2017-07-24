@@ -2,8 +2,8 @@
 :: Name:     StartScript.bat
 :: Purpose:  Configure and start Burning Crusade WoW on specified server
 :: Author:   terrorskull@terrorskull.com
-:: Version:  1.1
-:: Date:     15JUL2017
+:: Version:  1.2
+:: Date:     24JUL2017
 ::
 ::           Create a copy of this file for each realm.
 ::
@@ -11,6 +11,9 @@
 ::
 ::           Run the executable directly or create a shortcut on the
 ::           desktop (allows for changing the icon).
+:: Modified: 24JUL2017 - 1.2
+::           - BC version now has its own repository for clarity
+::           - Updated examples after recent closings
 :: Modified: 15JUL2017 - 1.1
 ::           - Fixed issue happening with realms containing parenthesis
 ::           - Modified how the cache files are cleared
@@ -29,11 +32,11 @@ SET DIR=C:\Program Files (x86)\Burning Crusade
 :: Account name - generated on site for the server
 SET NAME=myname
 
-:: Realm name - the realm to log into, e.g., Felmyst (Horde), Felmyst (Alliance), Darrowshire, Medivh, Outland
-SET REALM="Felmyst (Horde)"
+:: Realm name - the realm to log into, e.g., Stonetalon, Medivh, Outland
+SET REALM="Stonetalon"
 
 :: Logon server specified in realmlist.wtf file - provided by site hosting the server
-SET LOGON=game.felmyst.com
+SET LOGON=logon.vengeancewow.com
 
 ::-----------------------------------------------------------
 :: Automated commands - do not modify

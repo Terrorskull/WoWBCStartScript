@@ -1,4 +1,4 @@
-# **WowStartScript**
+# **WowStartScriptBC**
 
 Start script to automate switching between different private servers. This will handle the mundane tasks that are often involved when swapping servers, especially from different hosts, including the following:
 - Clearing the WDB folder - prevents item stat issues when switching servers
@@ -9,8 +9,8 @@ Start script to automate switching between different private servers. This will 
 Just run this script from the desktop shortcut, and you will log on to the correct realm without all of the hassle.
 
 ## Usage
-1. Save the Startscript.bat file in your WoW directory or somewhere easy to remember.
-2. Copy the StartScript.bat file and rename it to the realm while keeping the .bat extension (Elysium.bat, Anathema.bat, Kronos.bat, etc).
+1. Save the Startscript.bat file in your TBC directory or somewhere easy to remember.
+2. Copy the StartScript.bat file and rename it to the realm while keeping the .bat extension (Stonetalon.bat, Medivh.bat, Outland.bat, etc).
 2. Open the file in your text editor of choice (default to using notepad)
 3. Locate the *User defined settings* section and fill in the correct information
     - Wow.exe file path - location of your executable for the version of the game you are launching
